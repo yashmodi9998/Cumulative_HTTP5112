@@ -28,7 +28,6 @@ namespace Cumulative_HTTP5112.Controllers
             StudentDataController controller = new StudentDataController();
             Students NewStudent = controller.FindStudent(id);
 
-
             return View(NewStudent);
         }
 
